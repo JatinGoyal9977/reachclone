@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+.list .list1{
+    display: inline;
+    list-style: none;
+    padding: 8vh;
+    
+}
+.heading{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4vh 0;
+}
+.newevent{
+    font-size: 24px;
+}
+.prevnex{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    margin: 5vh;
+    margin-left: 8vw;
+    padding: 1vh;
+    padding-right: 2vw;
+    width: 56vw;
+    text-align: right;
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.img2{
+    width: 40vw;
+    margin-left: 8vw;
+}
+.p2{
+    margin-left: 8vw;
+}
+.p3{
+    margin: 2vh;
+    margin-left: 8vw;
+}
+.p4{
+    width: 56vw;
+    margin: 2vh;
+    margin-left: 8vw;
+}
+.p5{
+    margin: 2vh;
+    margin-left: 8vw;
+}
+.p6:hover{
+    background: aqua;
+    color: brown;
+    transition-duration: 200ms;
+}
+.p6{
+    background: red;
+    color: white;
+    width: max-content;
+    padding: 2vh;
+    border: 1px none red;
+    border-radius: 3px;
+    margin: 5vh;
+    margin-left: 32vw;
+}
+.high{
+    color: red;
+}
+.diff{
+    display: inline;
+    background: red;
+    color: white;
+    padding: 2vh;
+}
+.feat{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    color: red;
+    margin: 5vh;
+    margin-left: 8vw;
+    padding: 1vh;
+    padding-right: 2vw;
+    width: 56vw;
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    margin-top: 45vh;
+    background: rgba(29, 28, 28, 0.822);
+    color: white;
+}
+.h3{
+    border-bottom: 1px solid;
+    width: fit-content;
+    margin: 2vh;
+    padding: 2vh;
+    padding-left: 0;
+    padding-right: 5vw;
+}
+.list3{
+    list-style: none;
+    margin: 1vh;
+    margin-left: 2vh;
+    margin-bottom: 0;
+}
+.h4{
+    border-bottom: 1px solid;
+    width: fit-content;
+    margin: 2vh;
+    padding: 2vh;
+    padding-left: 0;
+    padding-right: 5vw;
+}
+.list4{
+    list-style: none;
+    margin: 1vh;
+    margin-left: 2vh;
+    margin-bottom: 0;
+}
+.h5{
+    border-bottom: 1px solid;
+    width: fit-content;
+    margin: 2vh;
+    padding: 2vh;
+    padding-left: 0;
+    padding-right: 5vw;
+}
+.list5{
+    list-style: none;
+    margin: 1vh;
+    margin-left: 2vh;
+    margin-bottom: 0;
+}
+#contact{
+    color: gray;
+    transition-duration: 300ms;
+}
+#email{
+    color: gray;
+    transition-delay: 300ms;
+}
+#contact:hover{
+    color: red;
+}
+#email:hover{
+    color: red;
+}
+#newsletter{
+    background: rgba(3, 3, 3, 0.253);
+    text-align: center;
+    margin-top: 4vh;
+    padding: 2vh;
+}
+#newsletter:hover{
+    background: aqua;
+    color: brown;
+    transition-duration: 200ms;
+}
+.list6{
+    margin-top: 2vh;
+    width: 17vw;
+}
+.img3{
+    margin-top: 3vh;
+}
+.foot2{
+    background: black;
+    color: white;
+    padding: 2vh;
+}
+.sideBar{
+    position:absolute;
+    right: 20vh;
+    top: 28vh;
+}
+.sideBar input, .sideBar select {
+    height: 5vh;
+}
+.sideBar select{
+    border: solid 0.01rem;
+    width: 15vw;
+    border-radius: 0.15rem;
+    color: #0000004f;
+}
+.sideBar select option {
+    color: #00000075;
+}
+.h1{
+    padding-top: 5vh;
+}
+.h2{
+    padding-top: 5vh;
+}
+.sideBar ul .list2{
+    display: block;
+    color: red;
+    border-bottom:1px solid gray ;
+    margin: 2vh;
+    padding: 1vh;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 4vh;
+}
